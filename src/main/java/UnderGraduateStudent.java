@@ -1,4 +1,4 @@
-public class UbderGraduateStudent extends Student {
+public class UnderGraduateStudent extends Student {
     private String major;
 
     public String getMajor() {
@@ -9,7 +9,7 @@ public class UbderGraduateStudent extends Student {
         this.major = major;
     }
 
-    public UbderGraduateStudent(String name, int age,String major){
+    public UnderGraduateStudent(String name, int age,String major){
         super(name, age);
         this.major= major;
 
@@ -17,7 +17,7 @@ public class UbderGraduateStudent extends Student {
 
     @Override
     public String toString() {
-        return "UbderGraduateStudent{" +
+        return "UnderGraduateStudent{" +
                 "major='" + major + '\'' +
                 "} " + super.toString();
     }
